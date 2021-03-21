@@ -1,5 +1,64 @@
 @import 'bootstrap/dist/css/bootstrap';
 
-.navbar {
-  background-color: #FDF6EA !important;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.navbar {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+#logo {
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 2em;
+  height: 600px;
+  color: #fff;
+  border-radius: 5px;
+  background-image: asset-url('writing.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

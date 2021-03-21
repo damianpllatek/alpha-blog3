@@ -48,11 +48,12 @@ body {
 }
 
 .jumbotron {
+  padding: 5em 2em;
+  margin: 1.4em .8em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5em 2em;
   height: 600px;
   color: #fff;
   border-radius: 5px;

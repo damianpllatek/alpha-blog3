@@ -6,6 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
+        <%= link_to "Bloggers", users_path, class: "dropdown-item" %>
         <%= link_to "Create new article", new_article_path, class: "dropdown-item" %>
         <%= link_to "View articles", articles_path, class: "dropdown-item" %>
       </div>
